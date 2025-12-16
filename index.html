@@ -166,13 +166,56 @@ footer{
 }
 
 /* MOBILE */
-@media(max-width:900px){
-    .services{
-        flex-direction:column;
-        align-items:center;
+/* MOBİL OPTİMİZASYON */
+@media (max-width: 768px){
+
+    /* HERO KISALT */
+    .hero{
+        min-height: 300px;
+        padding: 50px 15px;
     }
+
+    /* DÜNYA HARİTASI BOŞLUĞU AZALSIN */
+    .world{
+        background-size: 1200px auto;
+        opacity: 0.18;
+    }
+
+    /* LOGO KÜÇÜLT */
+    .hero img{
+        width: 140px;
+        margin-bottom: 15px;
+    }
+
+    /* BAŞLIK KÜÇÜLT */
     .hero h1{
-        font-size:34px;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+    /* ALT YAZI KÜÇÜLT */
+    .hero p{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    /* SERVİSLER ARASI BOŞLUK */
+    .services{
+        padding: 40px 15px;
+        gap: 18px;
+    }
+
+    /* ABOUT KISMI SIKI OLSUN */
+    .about{
+        padding: 45px 15px;
+    }
+
+    .about h2{
+        font-size: 22px;
+    }
+
+    .about p{
+        font-size: 14px;
     }
 }
 </style>
