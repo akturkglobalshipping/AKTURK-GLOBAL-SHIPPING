@@ -2,6 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Akturk Global Shipping</title>
 
 <style>
@@ -169,59 +170,36 @@ footer{
 /* MOBİL OPTİMİZASYON */
 @media (max-width: 768px){
 
-    /* HERO KISALT */
     .hero{
-        min-height: 300px;
-        padding: 50px 15px;
+        min-height:280px;
+        padding:60px 15px;
     }
 
-    /* DÜNYA HARİTASI BOŞLUĞU AZALSIN */
-    .world{
-        background-size: 1200px auto;
-        opacity: 0.18;
-    }
-
-    /* LOGO KÜÇÜLT */
     .hero img{
-        width: 140px;
-        margin-bottom: 15px;
+        width:140px;
     }
 
-    /* BAŞLIK KÜÇÜLT */
     .hero h1{
-        font-size: 26px;
-        line-height: 1.2;
+        font-size:28px;
     }
 
-    /* ALT YAZI KÜÇÜLT */
     .hero p{
-        font-size: 14px;
-        margin-top: 8px;
+        font-size:16px;
     }
 
-    /* SERVİSLER ARASI BOŞLUK */
+    .world{
+        background-size:1200px auto;
+        opacity:0.18;
+    }
+
     .services{
-        padding: 40px 15px;
-        gap: 18px;
+        flex-direction:column;
+        padding:40px 15px;
     }
 
-    /* ABOUT KISMI SIKI OLSUN */
-    .about{
-        padding: 45px 15px;
+    .card{
+        max-width:100%;
     }
-
-    .about h2{
-        font-size: 22px;
-    }
-
-    .about p{
-        font-size: 14px;
-    }
-}
-    /* cache-breaker */
-body::after{
-    content:"v3";
-    display:none;
 }
 </style>
 </head>
